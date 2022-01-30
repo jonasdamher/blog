@@ -8,25 +8,25 @@
 	"theme_color": "#2855d1",
 	"icons": [
 		{
-			"src": "public/images/logo/launcher-1.png",
+			"src": "image/logo/launcher-1.png",
 			"type": "image/png",
 			"sizes": "48x48",
 			"purpose": "any maskable"
 		},
 		{
-			"src": "public/images/logo/launcher-2.png",
+			"src": "image/logo/launcher-2.png",
 			"type": "image/png",
 			"sizes": "96x96",
 			"purpose": "any maskable"
 		},
 		{
-			"src": "public/images/logo/launcher-3.png",
+			"src": "image/logo/launcher-3.png",
 			"type": "image/png",
 			"sizes": "192x192",
 			"purpose": "any maskable"
 		},
 		{
-			"src": "public/images/logo/jonasdamher.png",
+			"src": "image/logo/jonasdamher.png",
 			"type": "image/png",
 			"sizes": "512x512",
 			"purpose": "any maskable"
