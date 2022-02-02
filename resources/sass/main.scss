@@ -1,27 +1,35 @@
+@import "main/variables";
+@import "main/fonts";
 @import "main/break-points";
 @import "main/cols";
 @import "main/navbar";
 @import "main/card";
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat';
 }
 
-body{
-    background-image: url('/image/web/bg-header.png');
+body {
+    background-image: url("/image/web/bg-header.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed; 
+    background-attachment: fixed;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-.container{
+.container {
     padding: 0 3rem;
     position: relative;
     display: flex;
     flex-direction: column;
+}
+
+.text-primary {
+    color: $primary;
 }

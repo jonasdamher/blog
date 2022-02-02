@@ -16,3 +16,4 @@ mix.js('resources/js/app.js', 'public/js').sourceMaps();
 mix.sass('resources/sass/main.scss', 'public/css')
 
 mix.copyDirectory('resources/image/', 'public/image/');
+mix.copyDirectory('resources/fonts/', 'public/fonts/');
