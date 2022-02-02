@@ -13,7 +13,8 @@
                 height: 32px;
             }
 
-            a:hover {
+            a:hover,
+            a:focus {
                 filter: opacity(0.5);
                 transition: 0.3s;
             }
