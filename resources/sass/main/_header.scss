@@ -7,5 +7,15 @@
 
     .subtitle {
         padding-left: 3rem;
+        font-size: 20px;
+    }
+
+    .subtitle-border{
+        padding-left: 1.5rem;
+        padding-bottom: 1.5rem;
+        margin-left: 1.5rem;
+        font-size: 20px;
+        border-bottom: 1px dashed;
+        border-left: 1px dashed;
     }
 }

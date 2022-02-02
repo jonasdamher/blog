@@ -6,11 +6,18 @@
                 <div class="d-flex flex-column">
                     <h1 class="text-primary title">Jonás Damián</h1>
                     <p class="text-primary subtitle p">Desarrollador web</p>
-                    <p class="text-primary subtitle">Autodidacta en este mundillo</p>
+                    <p class="text-primary subtitle-border">Autodidacta en este
+                        mundillo</p>
                 </div>
             </div>
-            <div class="col-1 d-flex align-items-center">
-                <div class="border-bottom border-dashed border-medium text-primary w-100"></div>
+
+            <div class="col-4 d-flex flex-column justify-content-end">
+                <p class="text-primary subtitle p">Blog y Curriculum personal, iré actualizando según aprenda cosas
+                    interesantes o creando apuntes sobre lenguajes o curiosidades.</p>
+            </div>
+
+            <div class="col-12">
+
             </div>
         </div>
     </section>
