@@ -2,15 +2,20 @@
 @import "main/fonts";
 @import "main/break-points";
 @import "main/cols";
-@import "main/navbar";
+@import "main/flex";
+
 @import "main/card";
+
+@import "main/navbar";
+@import "main/header";
+
 @import "main/footer";
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
 }
 
 body {
@@ -28,6 +33,26 @@ ul {
     color: $primary;
 }
 
-.text-center{
+.text-center {
     text-align: center;
+}
+
+.border-bottom {
+    border-bottom: 1px;
+}
+
+.border-dashed {
+    border-style: dashed;
+}
+
+.border-medium {
+    border-width: medium;
+}
+
+.p{
+    margin-bottom: .4rem;
+}
+
+.w-100{
+    width: 100%;
 }

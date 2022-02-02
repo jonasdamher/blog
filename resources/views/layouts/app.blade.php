@@ -15,12 +15,10 @@
 
 <body>
     @include('panels.navbar')
-  <main>
-    <div class="container">
-        @yield('content')
-    </div>
-  </main>
-  @include('panels.footer')
+
+    @yield('content')
+
+    @include('panels.footer')
 </body>
 
 </html>

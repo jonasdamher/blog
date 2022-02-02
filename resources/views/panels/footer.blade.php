@@ -9,13 +9,14 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/jonasdamher/" target="_blank" rel="noreferrer" title="linkedin">
+                        <a href="https://www.linkedin.com/in/jonasdamher/" target="_blank" rel="noreferrer"
+                            title="linkedin">
                             <img src="{{ asset('image/social/linkedin.svg') }}" alt="linkedin" width="24px" />
                         </a>
                     </li>
                     <li>
-                        <a href="https://es.stackoverflow.com/users/161975/jonasdamher" target="_blank"
-                            rel="noreferrer" title="stack-overflow">
+                        <a href="https://es.stackoverflow.com/users/161975/jonasdamher" target="_blank" rel="noreferrer"
+                            title="stack-overflow">
                             <img src="{{ asset('image/social/stack-overflow.svg') }}" alt="stack-overflow"
                                 width="24px" />
                         </a>
