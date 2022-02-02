@@ -1,0 +1,22 @@
+#footer {
+    .footer-social {
+        margin-bottom: 1.5rem;
+        display: flex;
+        justify-content: center;
+        li {
+            margin: 0 0.7rem;
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 32px;
+                height: 32px;
+            }
+
+            a:hover {
+                filter: opacity(0.5);
+                transition: 0.3s;
+            }
+        }
+    }
+}

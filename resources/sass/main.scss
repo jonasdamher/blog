@@ -4,6 +4,7 @@
 @import "main/cols";
 @import "main/navbar";
 @import "main/card";
+@import "main/footer";
 
 * {
     padding: 0;
@@ -21,13 +22,6 @@ body {
 
 ul {
     list-style: none;
-}
-
-.container {
-    padding: 0 3rem;
-    position: relative;
-    display: flex;
-    flex-direction: column;
 }
 
 .text-primary {
