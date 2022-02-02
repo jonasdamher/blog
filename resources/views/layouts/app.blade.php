@@ -20,6 +20,7 @@
         @yield('content')
     </div>
   </main>
+  @include('panels.footer')
 </body>
 
 </html>
