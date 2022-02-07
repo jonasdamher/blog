@@ -4,8 +4,8 @@
 	"description": "Blog sobre desarrollo web y CV de Jonás Damián.",
 	"display": "standalone",
 	"orientation": "portrait",
-	"background_color": "#0b2d8e",
-	"theme_color": "#2855d1",
+	"background_color": "#0540ff",
+	"theme_color": "#0540ff",
 	"icons": [
 		{
 			"src": "image/logo/launcher-1.png",
@@ -32,5 +32,5 @@
 			"purpose": "any maskable"
 		}
 	],
-	"start_url": "https://jonasdamher.dev/"
+	"start_url": "https://jonasdamher.test/"
 }

@@ -1,0 +1,27 @@
+#cv {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+
+    .cv-title {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .cv-date {
+        font-family: "Montserrat-italic";
+        color: #767676;
+    }
+    .cv-desc {
+        margin-bottom: 2rem;
+        font-size: 1.2rem;
+        p{
+            margin-bottom: 0.4rem;
+
+        }
+        .cv-experience:not(.cv-desc .cv-experience:last-child) {
+            margin-bottom: 1rem;
+        }
+    }
+
+ 
+}

@@ -18,4 +18,27 @@
         border-bottom: 1px dashed;
         border-left: 1px dashed;
     }
+
+    .header-social {
+        margin-top: 3rem;
+        margin-bottom: 1.5rem;
+        display: flex;
+        justify-content: center;
+        li {
+            margin: 0 0.7rem;
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 32px;
+                height: 32px;
+            }
+
+            a:hover,
+            a:focus {
+                filter: opacity(0.5);
+                transition: 0.3s;
+            }
+        }
+    }
 }

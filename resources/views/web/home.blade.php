@@ -2,9 +2,7 @@
 
 @section('content')
     @include('web.sections.header')
-    <main>
-        <div class="container">
-
-        </div>
+    <main class="bg-white">
+        @include('web.sections.cv')
     </main>
 @endsection

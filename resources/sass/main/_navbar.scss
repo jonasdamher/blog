@@ -1,4 +1,8 @@
 #navbar {
+    position: sticky;
+    top: 0px;
+    z-index: 90;
+
     .navbar-body {
         padding: 2rem 3rem;
         display: flex;
@@ -9,8 +13,36 @@
             margin-left: calc(50% - 32px);
         }
 
+        .btn-menu {
+            .icon-menu {
+                width: 64px;
+                height: 64px;
+
+                line {
+                    fill: none;
+                    stroke: $primary;
+                    stroke-width: 3;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                    transition: 0.3s;
+                    transform-origin: right;
+                }
+            }
+        }
+
+        .btn-menu:hover {
+            .icon-menu {
+                line {
+                    stroke: #151ab9;
+                }
+                .expand {
+                    transform: scaleX(1.8);
+                }
+            }
+        }
+
         .navbar-list {
-            display: flex;
+            display: none;
             align-items: center;
 
             ul {
