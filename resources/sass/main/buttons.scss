@@ -1,0 +1,11 @@
+.btn {
+    padding: 1rem;
+    border: 0;
+    background-color: transparent;
+    border-radius: 0.35rem;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: 1px solid #151ab90f;
+}

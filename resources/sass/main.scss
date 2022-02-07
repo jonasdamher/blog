@@ -1,9 +1,16 @@
 @import "main/variables";
-@import "main/fonts";
 @import "main/break-points";
+@import "main/fonts";
+@import "main/scroll";
+
 @import "main/cols";
 @import "main/flex";
+@import "main/bg";
+@import "main/padding";
+@import "main/text";
+@import "main/border";
 
+@import "main/buttons";
 @import "main/card";
 
 @import "main/navbar";
@@ -16,6 +23,8 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Montserrat";
+    scrollbar-width: thin;
+    scrollbar-color: $color_scroll $white;
 }
 
 body {
@@ -29,47 +38,13 @@ ul {
     list-style: none;
 }
 
-.text-primary {
-    color: $primary;
+a {
+    text-decoration: none;
 }
-
-.text-center {
-    text-align: center;
-}
-
-.border-bottom {
-    border-bottom: 1px;
-}
-
-.border-dashed {
-    border-style: dashed;
-}
-
-.border-medium {
-    border-width: medium;
-}
-
-.p {
-    margin-bottom: 0.4rem;
+a:focus {
+    outline: 1px solid #ccc;
 }
 
 .w-100 {
     width: 100%;
 }
-
-.bg-white {
-    background-color: #fff;
-}
-
-.pb-2 {
-    padding-bottom: 2rem;
-}
-
-.btn {
-    padding: 1rem;
-    border: 0;
-    background-color: transparent;
-    border-radius: 0.35rem;
-    cursor: pointer;
-}
-
