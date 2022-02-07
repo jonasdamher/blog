@@ -1,4 +1,8 @@
+'use strict';
 
-window.onscroll = function (e) {
-    console.log(window.scrollY);  
-};
+document.getElementById("menu-open").addEventListener('click', menu);
+
+function menu() {
+    let contentMenu = document.getElementById("menu");
+    contentMenu.style.display = contentMenu.style.display === 'flex' ? 'none' : 'flex';
+}
