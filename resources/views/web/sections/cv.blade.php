@@ -1,9 +1,9 @@
 <section id="cv" class="container">
     <div class="row">
-        <div class="col-md-4 d-flex justify-content-end cv-title text-primary">
+        <div class="col-lg-4 d-flex justify-content-end cv-title text-primary">
             <p>Perfil</p>
         </div>
-        <div class="col-md-6 cv-desc">
+        <div class="col-lg-6 cv-desc">
             <p>Me apasiona crear productos útiles, soy autodidacta.</p>
             <p>No estudié para ser programador pero sé desenvolverme, investigo y aprendo para conseguir mis objetivos.
             </p>
@@ -14,10 +14,10 @@
     </div>
     <div class="row">
 
-        <div class="col-md-4 d-flex justify-content-end cv-title text-primary">
+        <div class="col-lg-4 d-flex justify-content-end cv-title text-primary">
             <p>Experiencia</p>
         </div>
-        <div class="col-md-6 cv-desc">
+        <div class="col-lg-6 cv-desc">
 
             <div class="cv-experience">
                 <p>Tca-tik <span class="cv-date"><small>06/2021 - Hasta ahora</small></span></p>
@@ -44,10 +44,10 @@
     </div>
     <div class="row">
 
-        <div class="col-md-4 d-flex justify-content-end cv-title text-primary">
+        <div class="col-lg-4 d-flex justify-content-end cv-title text-primary">
             <p>Conocimientos</p>
         </div>
-        <div class="col-md-6 cv-desc">
+        <div class="col-lg-6 cv-desc">
             <p>
                 CSS3, Bootstrap, HTML5, javascript, typescript, jquery, node.js, PHP, Laravel, mysql, mongodb
             </p>
@@ -56,10 +56,10 @@
     </div>
     <div class="row">
 
-        <div class="col-md-4 d-flex justify-content-end cv-title text-primary">
+        <div class="col-lg-4 d-flex justify-content-end cv-title text-primary">
             <p>Estudios</p>
         </div>
-        <div class="col-md-6 cv-desc">
+        <div class="col-lg-6 cv-desc">
 
             <div class="cv-experience">
                 <p>Curso, desarrollo de aplicaciones web <span class="cv-date"><small>10/2019 –

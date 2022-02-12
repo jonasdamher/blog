@@ -2,21 +2,31 @@
     position: sticky;
     top: 0px;
     z-index: 90;
+    transition: 0.2s;
 
     .navbar-body {
         padding: 2rem 3rem;
         display: flex;
         justify-content: end;
+        align-items: center;
+        transition: 0.2s;
 
         .logo {
             margin: auto;
             margin-left: calc(50% - 32px);
+            img {
+                width: 64px;
+                height: 64px;
+                transition: 0.2s;
+            }
         }
 
         .btn-menu {
+            padding: 0.5rem;
+            display: flex;
             .icon-menu {
-                width: 64px;
-                height: 64px;
+                width: 32px;
+                height: 32px;
 
                 line {
                     fill: none;
@@ -30,13 +40,14 @@
             }
         }
 
-        .btn-menu:hover,.btn-menu:focus {
+        .btn-menu:hover,
+        .btn-menu:focus {
             .icon-menu {
                 line {
                     stroke: #151ab9;
                 }
                 .expand {
-                    transform: scaleX(1.8);
+                    transform: scaleX(1.7);
                 }
             }
         }
@@ -71,6 +82,20 @@
                     color: #0540ff61;
                 }
             }
+        }
+    }
+
+    &.navbar-scrolling {
+        background-color: $white;
+        box-shadow: 0px 1px 2px #00000021, 0px 3px 3px #00000012;
+        
+        .navbar-body{
+            padding: 1rem 3rem;
+        }
+
+        .logo img{
+            width: 48px;
+            height: 48px;
         }
     }
 }
