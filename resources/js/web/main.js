@@ -1,15 +1,20 @@
 'use strict';
-(function () {
+(() => {
 
     document.getElementById("menu-open").addEventListener('click', () => {
+
         const contentMenu = document.getElementById("menu");
-        contentMenu.style.display = (contentMenu.style.display === 'flex' ? 'none' : 'flex');
+        const openOrClose = (contentMenu.classList.contains('menu-open') ? 'remove' : 'add');
+
+        contentMenu.classList[openOrClose]("menu-open");
     });
 
     window.addEventListener('scroll', () => {
 
-        const methodScroll = (window.scrollY == 0 ? 'remove' : 'add');
-        document.getElementById("navbar").classList[methodScroll]("navbar-scrolling");
-    })
+        const scrollTo = (window.scrollY === 0 ? 'remove' : 'add');
+
+        document.getElementById("navbar").classList[scrollTo]("navbar-scrolling");
+        document.getElementById("menu").classList[scrollTo]("menu-sticky");
+    });
 
 })();

@@ -9,7 +9,7 @@
     <meta name="description"
         content="Blog y curriculum de Jonás Damián Hernández (jonasdamher). Desarrollador web y autodidacta.">
     <meta name="theme-color" content="#0540ff">
-    <link rel="apple-touch-icon" href="{{asset('image/logo/launcher-2.png')}}">
+    <link rel="apple-touch-icon" href="{{asset('image/logo/maskable_icon_x192.png')}}">
     <title>{{ config('app.name') }}</title>
     <link href="{{ asset('manifest.json') }}" rel="manifest">
     <!-- Scripts -->

@@ -24,6 +24,7 @@
         .btn-menu {
             padding: 0.5rem;
             display: flex;
+            visibility: hidden;
             .icon-menu {
                 width: 32px;
                 height: 32px;
@@ -47,15 +48,14 @@
                     stroke: #151ab9;
                 }
                 .expand {
-                    transform: scaleX(1.7);
+                    transform: translateX(22px) scaleX(1.7);
                 }
             }
         }
 
         .navbar-list {
-            display: none;
             align-items: center;
-
+            transition: .3s;
             ul {
                 display: flex;
 
@@ -88,14 +88,59 @@
     &.navbar-scrolling {
         background-color: $white;
         box-shadow: 0px 1px 2px #00000021, 0px 3px 3px #00000012;
-        
-        .navbar-body{
+
+        .navbar-body {
             padding: 1rem 3rem;
         }
 
-        .logo img{
+        .logo img {
             width: 48px;
             height: 48px;
+        }
+    }
+
+    @media only screen and (max-width: $md) {
+        .navbar-body {
+            .btn-menu {
+                visibility: visible;
+                z-index: 1;
+            }
+
+            .navbar-list {
+                visibility: hidden;
+                position: fixed;
+                width: 230px;
+                left: 0;
+                top: 0;
+                padding-top: 7rem;
+                padding-left: 2rem;
+                padding-right: 2rem;
+                padding-bottom: 2rem;
+                height: 100%;
+                display: flex;
+                align-items: flex-start;
+                background-color: #f9f9f9;
+                box-shadow: 0px 1px 2px #00000021, 0px 3px 3px #00000012;
+                 transform: translateX(-230px);
+              
+                ul {
+                    flex-direction: column;
+                    .navbar-list-li:not(.navbar-list-li:last-child)::after {
+                        content: "";
+                    }
+                }
+            }
+
+            .menu-sticky {
+                top: 84px;
+                padding-top: 2rem;
+            }
+
+            .menu-open{
+                visibility: visible;
+                transform: translateX(0px);
+
+            }
         }
     }
 }
