@@ -1,6 +1,6 @@
 <section id="cv" class="container">
     <div class="row">
-        <div class="col-lg-4 d-flex justify-content-end cv-title text-primary">
+        <div class="col-lg-4 d-flex justify-lg-content-end cv-title text-primary">
             <p>Perfil</p>
         </div>
         <div class="col-lg-6 cv-desc">
@@ -8,13 +8,13 @@
             <p>No estudié para ser programador pero sé desenvolverme, investigo y aprendo para conseguir mis objetivos.
             </p>
             <br>
-            <p>Las Palmas de Gran Canaria.</p>
+            <p>Islas Canarias, Las Palmas de Gran Canaria 🌴.</p>
             <p>Nacimiento, 9 del 12 de 1997. (24 años)</p>
         </div>
     </div>
     <div class="row">
 
-        <div class="col-lg-4 d-flex justify-content-end cv-title text-primary">
+        <div class="col-lg-4 d-flex justify-lg-content-end cv-title text-primary">
             <p>Experiencia</p>
         </div>
         <div class="col-lg-6 cv-desc">
@@ -44,7 +44,7 @@
     </div>
     <div class="row">
 
-        <div class="col-lg-4 d-flex justify-content-end cv-title text-primary">
+        <div class="col-lg-4 d-flex justify-lg-content-end cv-title text-primary">
             <p>Conocimientos</p>
         </div>
         <div class="col-lg-6 cv-desc">
@@ -56,7 +56,7 @@
     </div>
     <div class="row">
 
-        <div class="col-lg-4 d-flex justify-content-end cv-title text-primary">
+        <div class="col-lg-4 d-flex justify-lg-content-end cv-title text-primary">
             <p>Estudios</p>
         </div>
         <div class="col-lg-6 cv-desc">

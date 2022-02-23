@@ -9,7 +9,7 @@
     <meta name="description"
         content="Blog y curriculum de Jonás Damián Hernández (jonasdamher). Desarrollador web y autodidacta.">
     <meta name="theme-color" content="#0540ff">
-    <link rel="apple-touch-icon" href="{{asset('image/logo/maskable_icon_x192.png')}}">
+    <link rel="apple-touch-icon" href="{{ asset('image/logo/maskable_icon_x192.png') }}">
     <title>{{ config('app.name') }}</title>
     <link href="{{ asset('manifest.json') }}" rel="manifest">
     <!-- Scripts -->
@@ -20,10 +20,9 @@
 
 <body>
     @include('panels.navbar')
-
     @yield('content')
-
     @include('panels.footer')
+    <a type="button" class="btn btn-up" title="Ir al principio" href="#"><img src="{{asset('image/web/arrow-up-solid.svg')}}"/></a>
 </body>
 
 </html>

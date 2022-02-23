@@ -13,10 +13,12 @@
         <div class="navbar-list" id="menu">
             <ul>
                 <li class="navbar-list-li">
-                    <a href="#cv" class="navbar-link">CV</a>
+                    <a href="{{ request()->is('/') ? '#cv' : route('home', '#cv') }}"
+                        class="navbar-link{{ route('home', '#cv') == request()->fullUrl() ? ' active' : '' }}">CV</a>
                 </li>
                 <li class="navbar-list-li">
-                    <a href="#" class="navbar-link">Blog</a>
+                    <a href="{{ route('blog') }}"
+                        class="navbar-link{{ request()->is('blog') ? ' active' : '' }}">Blog</a>
                 </li>
             </ul>
         </div>

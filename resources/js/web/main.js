@@ -15,6 +15,8 @@
 
         document.getElementById("navbar").classList[scrollTo]("navbar-scrolling");
         document.getElementById("menu").classList[scrollTo]("menu-sticky");
+        document.getElementsByClassName("btn-up")[0].classList[scrollTo]("btn-up-show");
+
     });
 
 })();

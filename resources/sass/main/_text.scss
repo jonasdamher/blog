@@ -6,6 +6,20 @@
     text-align: center;
 }
 
+.text-dark{
+    color:$dark;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
 .p {
     margin-bottom: 0.4rem;
+}
+
+@media only screen and (min-width: $lg) {
+    .text-lg-center {
+        text-align: center;
+    }
 }

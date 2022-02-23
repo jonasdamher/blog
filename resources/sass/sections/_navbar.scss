@@ -68,18 +68,22 @@
                         font-weight: bold;
                         font-family: "Montserrat-bold";
 
-                        color: $primary;
+                        color: $dark;
+                        transition: .2s;
+                        &.active{
+                            color:$primary;
+                        }
                     }
 
                     .navbar-link:hover,
                     .navbar-link:focus {
-                        color: #151ab9;
+                        color: $primary;
                     }
                 }
 
                 .navbar-list-li:not(.navbar-list-li:last-child)::after {
                     content: "|";
-                    color: #0540ff61;
+                    color: #00000061;
                 }
             }
         }
@@ -127,6 +131,9 @@
                     flex-direction: column;
                     .navbar-list-li:not(.navbar-list-li:last-child)::after {
                         content: "";
+                    }
+                    .navbar-link:hover{
+                        transform: translateX(5px);
                     }
                 }
             }

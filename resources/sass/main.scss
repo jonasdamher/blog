@@ -27,6 +27,10 @@
     scrollbar-color: $color_scroll $white;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     background-image: url("/image/web/bg-header.png");
     background-repeat: no-repeat;

@@ -5,14 +5,21 @@
     justify-content: end;
 }
 
-.justify-content-center{
+.justify-content-center {
     justify-content: center;
 }
 
 .flex-column {
     flex-direction: column;
 }
-
+.align-items-start {
+    align-items: flex-start;
+}
 .align-items-center {
     align-items: center;
+}
+@media only screen and (min-width: $lg) {
+    .justify-lg-content-end {
+        justify-content: end;
+    }
 }
