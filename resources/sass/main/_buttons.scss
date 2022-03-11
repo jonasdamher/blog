@@ -24,7 +24,7 @@
 }
 
 .btn-primary-outline {
-    color: #fff;
+    color: $primary;
     background-color: transparent;
     border: 1px solid $primary;
     border-radius: 2rem;
@@ -32,25 +32,8 @@
     background-image: linear-gradient(90deg, transparent 100%, #1742cb 0%);
 }
 
-.btn-animation-outline:hover {
-    color: #fff;
-    background-image: linear-gradient(90deg, #1742cb 100%, #fff 0%);
-}
-
-.btn-animation-outline span {
-    color: transparent;
-    background-image: linear-gradient(90deg, #1742cb 100%, #fff 0%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    transition: 1s;
-}
-
-.btn-animation-outline:hover span {
-    background-image: linear-gradient(90deg, #fff 100%, #1742cb 0%);
-}
-
 .btn-up {
-    filter: invert(12%) sepia(63%) saturate(6234%) hue-rotate(246deg) brightness(87%) contrast(156%);
+    filter: invert(17%) sepia(68%) saturate(6232%) hue-rotate(226deg) brightness(115%) contrast(140%);
     position: fixed;
     right: 32px;
     bottom: 32px;
