@@ -8,9 +8,7 @@
                     <h1 class="title">Jonás Damián</h1>
                     <p class="subtitle mb-2">Blog y Curriculum personal, iré actualizando según aprenda cosas
                         interesantes o creando apuntes sobre lenguajes o curiosidades.</p>
-                    <a href="#cv" class="btn btn-primary-outline uppercase text-center">
-                        <span>Descubre más</span>
-                    </a>
+                  
                 </div>
             </div>
 
