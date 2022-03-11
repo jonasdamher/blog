@@ -6,8 +6,8 @@
                 <div class="d-flex flex-column align-items-start text-dark">
                     <p class="subtitle p">Desarrollador web, Autodidacta en este mundillo</p>
                     <h1 class="title">Jonás Damián</h1>
-                    <p class="subtitle mb-2">Blog y Curriculum personal, iré actualizando según aprenda cosas
-                        interesantes o creando apuntes sobre lenguajes o curiosidades.</p>
+                    <p class="subtitle mb-2">Curriculum personal, iré actualizando según aprenda cosas
+                        interesantes.</p>
                   
                 </div>
             </div>
