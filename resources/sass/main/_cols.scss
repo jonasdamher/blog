@@ -52,6 +52,12 @@
 //   width: 100%;
 // }
 
+@media only screen and (max-width: $md) {
+  .container {
+    padding: 0 2rem;
+  }
+}
+
 @media only screen and (min-width: $md) {
   .col-md-1 {
     width: 8.33%;

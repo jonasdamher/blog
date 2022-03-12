@@ -22,7 +22,8 @@
     @include('panels.navbar')
     @yield('content')
     @include('panels.footer')
-    <a type="button" class="btn btn-up" title="Ir al principio" href="#"><img src="{{asset('image/web/arrow-up-solid.svg')}}"/></a>
+    <a class="btn btn-up" title="Ir al principio" href="#"><img src="{{ asset('image/web/arrow-up-solid.svg') }}"
+            alt="Ir al principio" /></a>
 </body>
 
 </html>

@@ -6,3 +6,4 @@
         @include('web.home.sections.cv')
     </main>
 @endsection
+ 

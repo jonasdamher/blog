@@ -42,10 +42,22 @@
     transition: 0.2s;
     img {
         width: 32px;
+        height: 37px;
     }
 }
 
 .btn-up-show {
     visibility: visible;
     opacity: 1;
+}
+
+@media only screen and (max-width: $md) {
+  
+    .btn-up {
+        right: 0;
+        img {
+            width: 24px;
+            height: 27.42px;
+        }
+    }
 }
