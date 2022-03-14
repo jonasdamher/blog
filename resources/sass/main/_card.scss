@@ -1,9 +1,36 @@
-
-.card{
+.card {
     background-color: #fff;
-     box-shadow: 0px 1px 2px #0000002e, 0px 1px 4px #0000000d;
-    
-    .card-body{
+    box-shadow: 0px 1px 2px #0000002e, 0px 1px 4px #0000000d;
+
+    .card-img {
+        display: block;
+        cursor: auto;
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            aspect-ratio: 16/9;
+            cursor: pointer;
+        }
+
+        &:focus {
+            .card-title {
+                color: $primary;
+            }
+        }
+    }
+
+    .card-body {
         padding: 2rem;
+
+        .card-title {
+            margin-bottom: 1rem;
+            cursor: pointer;
+            transition: 0.1s;
+        }
+
+        .card-description {
+            color: gray;
+        }
     }
 }

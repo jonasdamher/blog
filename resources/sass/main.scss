@@ -27,7 +27,7 @@
     scrollbar-color: $color_scroll $white;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -47,6 +47,36 @@ a {
 }
 a:focus {
     outline: 1px solid #ccc;
+}
+
+p[tabindex="0"] {
+    display: block;
+    outline: 0;
+    position: relative;
+    transition: 0.2s;
+    z-index: 1;
+    &::before {
+        content: "";
+        width: 0;
+        transition: 0.2s;
+        z-index: -1;
+    }
+    &:focus {
+        &::before {
+            content: "";
+            width: 23px;
+            background-color: $primary;
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+        }
+
+        &::first-letter {
+            color: #fff;
+        }
+    }
 }
 
 .w-100 {
