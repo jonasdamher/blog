@@ -15,7 +15,8 @@
     <!-- Scripts -->
     <script src="{{ asset(mix('js/main.js')) }}" defer></script>
     <!-- Styles -->
-    <link href="{{ asset(mix('css/main.css')) }}" rel="stylesheet">
+    <link href="{{ asset(mix('css/web/main.css')) }}" rel="stylesheet">
+    @yield('css')
 </head>
 
 <body>

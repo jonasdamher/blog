@@ -1,7 +1,10 @@
 @extends('layouts.app')
 
-@section('content')
+@section('css')
+<link href="{{ asset(mix('css/web/page/home.css')) }}" rel="stylesheet">
+@endsection
 
+@section('content')
 @section('header-content')
     <div class="col-md-6 d-flex">
         <div class="d-flex flex-column align-items-start text-dark">
