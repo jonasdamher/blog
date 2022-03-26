@@ -2,7 +2,7 @@
     <section class="container">
         <div class="row">
             <div class="col-12 text-center pb-2">
-                <a href="mailto:jonas.damher@gmail.com">jonas.damher@gmail.com</a>
+                <a href="mailto:jonas.damher@gmail.com" class="link-primary">jonas.damher@gmail.com</a>
             </div>
             <div class="col-12">
                 <ul class="footer-social">
@@ -36,7 +36,7 @@
             </div>
 
             <div class="col-12">
-                <p class="text-center"><a href="{{ route('home') }}">jonasdamher</a> Ⓒ 2022 - Todos los derechos
+                <p class="text-center"><a href="{{ route('home') }}" class="link-dark">jonasdamher</a> Ⓒ 2022 - Todos los derechos
                     reservados.</p>
             </div>
         </div>

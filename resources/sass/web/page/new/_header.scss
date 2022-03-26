@@ -1,0 +1,45 @@
+#header {
+    .content-text {
+        padding: 4rem;
+        padding-left: 0;
+        padding-top: 6rem;
+    }
+    .title {
+        font-size: 3rem;
+        margin-bottom: 0.4rem;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+
+    .img-fluid {
+        position: relative;
+        right: 5rem;
+        top: 4rem;
+        aspect-ratio: 16/9;
+        border-radius: 0.15rem;
+        box-shadow: 0px 1px 2px #00000021, 0px 3px 3px #00000012;
+    }
+
+    .keywords {
+        span {
+            margin-right: 0.4rem;
+            margin-bottom: .3rem;
+        }
+        span:last-child {
+            margin-right: 0;
+        }
+    }
+
+    @media only screen and (max-width: $xl) {
+        .content-text {
+            padding: 0;
+        }
+
+        .img-fluid {
+            right: 0;
+            top: 2rem;
+        }
+    }
+}

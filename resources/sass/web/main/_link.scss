@@ -1,0 +1,27 @@
+a {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: 1px solid #ccc;
+}
+
+.link-primary {
+    color: $primary;
+    transition: 0.1s;
+}
+
+.link-primary:hover,
+.link-primary:focus {
+    color: #1139bb;
+}
+
+.link-dark {
+    color: $dark;
+    transition: 0.1s;
+}
+
+.link-primary:hover,
+.link-primary:focus {
+    color: #000;
+}

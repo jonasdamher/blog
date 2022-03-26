@@ -1,0 +1,32 @@
+
+.breadcrumbs {
+    padding: 1rem 0;
+
+    ul {
+        display: flex;
+        list-style: none;
+        li {
+            margin: 0.4rem 0.5rem;
+
+            color: $dark;
+            a {
+                color: $dark;
+
+                transition: 0.2s;
+
+                &:hover,
+                &:focus {
+                    color: $primary;
+                }
+            }
+        }
+
+        li.breadcrumbs-link {
+            padding-right: 2rem;
+            background-image: url("../../../image/web/chevron-right-solid.svg");
+            background-position-y: center;
+            background-position-x: right;
+            background-repeat: no-repeat;
+        }
+    }
+}

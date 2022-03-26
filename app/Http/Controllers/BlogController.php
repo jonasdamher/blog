@@ -10,4 +10,9 @@ class BlogController extends Controller
     {
         return view('web.blog.index');
     }
+
+    public function new($slug)
+    {
+        return view('web.blog.new');
+    }
 }

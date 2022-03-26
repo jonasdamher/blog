@@ -12,12 +12,6 @@
             aspect-ratio: 16/9;
             cursor: pointer;
         }
-
-        &:focus {
-            .card-title {
-                color: $primary;
-            }
-        }
     }
 
     .card-body {
@@ -25,10 +19,16 @@
 
         .card-title {
             margin-bottom: 1rem;
-            cursor: pointer;
-            transition: 0.1s;
-        }
 
+            a {
+                color: $dark;
+                cursor: pointer;
+                transition: 0.1s;
+                &:focus {
+                    color: $primary;
+                }
+            }
+        }
         .card-description {
             color: gray;
         }

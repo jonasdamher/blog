@@ -20,3 +20,4 @@ Auth::routes();
 
 Route::get('/',  [HomeController::class, 'index'])->name('home');
 Route::get('/blog',  [BlogController::class, 'index'])->name('blog');
+Route::get('/{slug}',  [BlogController::class, 'new'])->where('slug', '^[a-z-0-9-]+$')->name('new');

@@ -1,0 +1,58 @@
+@import "../../main/break-points";
+@import "../../main/variables";
+
+@import "header";
+
+#new {
+    padding-top: 5rem;
+
+    .new-content {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        pre {
+            margin-bottom: 1rem;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .new-content-index {
+        position: sticky;
+        top: 120px;
+    }
+
+    .new-pagination {
+        li {
+            margin: 1rem;
+            a {
+                padding: 0.5rem;
+            }
+        }
+    }
+
+    @media only screen and (max-width: $md) {
+        .new-index {
+            display: none;
+        }
+
+        .new-pagination {
+            justify-content: center;
+        }
+    }
+
+    @media only screen and (max-width: $extra-sm) {
+        .new-pagination {
+            ul {
+                width: 100%;
+                justify-content: space-between;
+            }
+        }
+    }
+}

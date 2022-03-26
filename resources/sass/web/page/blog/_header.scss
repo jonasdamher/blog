@@ -3,9 +3,73 @@
     .title {
         font-size: 4rem;
         margin-bottom: 0.4rem;
-     }
+    }
 
     .subtitle {
-         font-size: 20px;
-     }
+        font-size: 20px;
+    }
+
+    .form-search {
+        position: absolute;
+        top: 23vh;
+        z-index: 1;
+    }
+
+    #search {
+        padding: 0.2rem 1.2rem;
+        padding-left: 45px;
+        height: 48px;
+        width: 100%;
+        border: 1px solid #22222229;
+        box-shadow: 0px 1px 4px #52494900, 0px 2px 3px #0000000d;
+        border-radius: 0.2rem;
+
+        background-image: url("/image/web/search-solid.svg");
+        background-repeat: no-repeat;
+        background-size: 1.2rem;
+        background-position: 12px center;
+
+        &:focus {
+            outline: 1px solid #ccc;
+        }
+
+        &::-webkit-search-cancel-button {
+            position: relative;
+            opacity: 0.3;
+            -webkit-appearance: none;
+            height: 20px;
+            width: 20px;
+            border-radius: 10px;
+            background-image: url("/image/web/times-circle-solid.svg");
+            background-repeat: no-repeat;
+            cursor: pointer;
+        }
+    }
+
+    .list-categories {
+        overflow-x: auto;
+
+        span {
+            display: flex;
+            margin-right: 0.5rem;
+        }
+
+        span:last-child {
+            margin-right: 0;
+        }
+
+        .category {
+            padding: 0.6rem 0.8rem;
+            border-radius: 6px;
+            color: $dark;
+            background-color: rgba(0, 0, 0, 0.055);
+            transition: 0.2s;
+            cursor: pointer;
+        }
+
+        input:checked ~ .category {
+            color: $white;
+            background-color: $primary;
+        }
+    }
 }
