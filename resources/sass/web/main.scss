@@ -17,6 +17,7 @@
 @import "main/padding";
 @import "main/text";
 @import "main/border";
+@import "main/form";
 
 * {
     padding: 0;
@@ -62,4 +63,14 @@ body {
 
 .position-relative {
     position: relative;
+}
+
+html.dark-theme {
+    filter: invert(1);
+
+    .card-img img,
+    .img-fluid,
+    video {
+        filter: invert(1);
+    }
 }

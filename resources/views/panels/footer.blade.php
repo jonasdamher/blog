@@ -36,7 +36,8 @@
             </div>
 
             <div class="col-12">
-                <p class="text-center"><a href="{{ route('home') }}" class="link-dark">jonasdamher</a> Ⓒ 2022 - Todos los derechos
+                <p class="text-center"><a href="{{ route('home') }}" class="link-dark">jonasdamher</a> Ⓒ 2022
+                    - Todos los derechos
                     reservados.</p>
             </div>
         </div>

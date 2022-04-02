@@ -71,13 +71,13 @@
                 <div class="card new-content-index">
                     <div class="card-body">
                         <p class="bold mb-2">Índice</p>
-                        <ul>
+                        <ol>
                             <li>
                                 <a href="#">
                                     What is Lorem Ipsum?
                                 </a>
                             </li>
-                        </ul>
+                        </ol>
                     </div>
                 </div>
             </div>
