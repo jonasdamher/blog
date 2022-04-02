@@ -65,8 +65,14 @@ body {
     position: relative;
 }
 
+// Theme: Dark
+
 html.dark-theme {
-    filter: invert(1);
+    filter: invert(.90);
+    
+    body{
+        background-color: #ffffffd9;
+    }
 
     .card-img img,
     .img-fluid,
