@@ -36,7 +36,17 @@
 
     });
 
+    // Tema de pág
     const changeTheme = document.getElementById("change-theme");
+    const theme = localStorage.getItem('theme');
+    if (theme && theme != '') {
+        changeTheme.checked = true;
+        const label = document.getElementsByClassName("change-theme-label")[0];
+        label.setAttribute("aria-checked", 'true');
+
+        changeTheme.checked = true;
+    }
+
     changeTheme.addEventListener('click', (e) => {
 
         const label = document.getElementsByClassName("change-theme-label")[0];
@@ -47,7 +57,9 @@
         // Añadir tema oscura a la web
         const addOrRemove = (checked == 'false' ? 'add' : 'remove');
         document.getElementsByTagName('html')[0].classList[addOrRemove]("dark-theme")
+        localStorage.setItem('theme', (checked == 'false' ? 'dark-theme' : ''));
 
     });
+
 
 })();

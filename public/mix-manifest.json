@@ -1,8 +1,10 @@
 {
-    "/js/main.js": "/js/main.js?id=fd6878bed94320ea78c4",
+    "/js/main.js": "/js/main.js?id=3166a896bbe50074cd52",
+    "/js/sw.js": "/js/sw.js?id=44f9c1760064065d68d1",
+    "/js/theme.js": "/js/theme.js?id=5f8e10e544efebf3ed55",
     "/js/blog/main.js": "/js/blog/main.js?id=30115ffa28c055137879",
     "/css/web/page/new.css": "/css/web/page/new.css?id=618f4d9bef342ec52a16",
     "/css/web/page/home.css": "/css/web/page/home.css?id=8c7cddf98c1a73997569",
     "/css/web/page/blog.css": "/css/web/page/blog.css?id=cbdb54074856107410e3",
-    "/css/web/main.css": "/css/web/main.css?id=8b284aebb372f84a196a"
+    "/css/web/main.css": "/css/web/main.css?id=6bc40699a14b13d2b397"
 }

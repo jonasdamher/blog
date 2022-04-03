@@ -73,7 +73,7 @@
                         <p class="bold mb-2">Índice</p>
                         <ol>
                             <li>
-                                <a href="#">
+                                <a class="link-dark" href="#">
                                     What is Lorem Ipsum?
                                 </a>
                             </li>

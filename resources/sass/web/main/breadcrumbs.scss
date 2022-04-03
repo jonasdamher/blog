@@ -7,17 +7,22 @@
         list-style: none;
         li {
             margin: 0.4rem 0.5rem;
-
             color: $dark;
             a {
                 color: $dark;
-
+                white-space: nowrap;
                 transition: 0.2s;
 
                 &:hover,
                 &:focus {
                     color: $primary;
                 }
+            }
+
+            &[aria-current="page"]{
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
             }
         }
 

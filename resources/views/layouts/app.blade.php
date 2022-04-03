@@ -19,7 +19,8 @@
     <link rel="apple-touch-icon" href="{{ asset('image/logo/maskable_icon_x192.png') }}">
     <link href="{{ asset('manifest.json') }}" rel="manifest">
     <!-- Scripts -->
-    <script src="{{ asset(mix('js/main.js')) }}" defer></script>
+    <script src="{{ asset(mix('js/sw.js')) }}"></script>
+    <script src="{{ asset(mix('js/theme.js')) }}"></script>
     <!-- Styles -->
     <link href="{{ asset(mix('css/web/main.css')) }}" rel="stylesheet">
     @yield('css')
@@ -31,6 +32,8 @@
     @include('panels.footer')
     <a class="btn btn-up" title="Ir al principio" href="#" tabindex="-1" aria-label="Ir al principio"><img
             src="{{ asset('image/web/arrow-up-solid.svg') }}" alt="Ir al principio" /></a>
+    {{-- Scripts --}}
+    <script src="{{ asset(mix('js/main.js')) }}" defer></script>
     @yield('js-tails')
 </body>
 
