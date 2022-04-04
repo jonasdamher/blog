@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('web.layouts.app')
 
 @section('css')
     <link href="{{ asset(mix('css/web/page/blog.css')) }}" rel="stylesheet">
@@ -13,16 +13,16 @@
         </div>
     </div>
 
-    @include('web.blog.form-search')
+    @include('web.pages.blog.sections.form-search')
 @endsection
-@include('web.home.sections.header')
+@include('web.pages.home.sections.header')
 
 <main class="bg-white">
     <section id="blog" aria-label="Noticias disponibles" class="container">
         <div class="row" role="feed">
 
             <article class="col-md-6 col-lg-4 col-xxl-3" aria-labelledby="titulo" aria-describedby="Descripcion">
-                @include('panels.card')
+                @include('web.panels.card')
             </article>
 
         </div>
@@ -30,5 +30,5 @@
 @endsection
 
 @section('js-tails')
-<script src="{{ asset(mix('js/blog/main.js')) }}" defer></script>
+<script src="{{ asset(mix('js/web/blog/main.js')) }}" defer></script>
 @endsection

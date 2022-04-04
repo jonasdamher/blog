@@ -8,11 +8,11 @@ class BlogController extends Controller
 {
     public function index()
     {
-        return view('web.blog.index');
+        return view('web.pages.blog.index');
     }
 
     public function new($slug)
     {
-        return view('web.blog.new');
+        return view('web.pages.blog.new');
     }
 }

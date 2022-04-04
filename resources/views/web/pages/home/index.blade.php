@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('web.layouts.app')
 
 @section('css')
 <link href="{{ asset(mix('css/web/page/home.css')) }}" rel="stylesheet">
@@ -45,8 +45,8 @@
         </ul>
     </div>
 @endsection
-@include('web.home.sections.header')
+@include('web.pages.home.sections.header')
 <main class="bg-white">
-    @include('web.home.sections.cv')
+    @include('web.pages.home.sections.cv')
 </main>
 @endsection

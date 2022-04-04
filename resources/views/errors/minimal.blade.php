@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es      ">
+<html lang="es">
 
 <head>
     <meta charset="utf-8">
@@ -21,9 +21,10 @@
             justify-content: center;
         }
 
-        .message{
+        .message {
             font-size: 1.2rem;
         }
+
     </style>
 </head>
 
@@ -42,7 +43,7 @@
                     <p class="message">@yield('message')</p>
                 </div>
                 <div class="col-12 text-center">
-                <a href="{{route('home')}}" class="btn btn-primary">Ir al inicio</a>
+                    <a href="{{ route('home') }}" class="btn btn-primary">Ir al inicio</a>
                 </div>
             </div>
         </div>

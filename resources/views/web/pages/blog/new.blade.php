@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('web.layouts.app')
 
 @section('css')
     <link href="{{ asset(mix('css/web/page/new.css')) }}" rel="stylesheet">
@@ -47,14 +47,14 @@
         <img src="{{ asset('image/web/example.jpg') }}" alt="" class="img-fluid" />
     </div>
 @endsection
-@include('web.home.sections.header')
+@include('web.pages.home.sections.header')
 
 <main class="bg-white">
     <section id="new" class="container">
         <div class="row">
             <div class="col-md-12 col-lg-8 col-xxl-9">
                 <div class="new-content">
-                    @include('web.blog.content-new')
+                    @include('web.pages.blog.sections.content-new')
                 </div>
                 <div class="new-pagination d-flex mb-2">
                     <ul class="d-flex">
