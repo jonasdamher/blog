@@ -24,6 +24,7 @@ mix
     .sass('resources/sass/web/page/blog/main.scss', 'public/css/web/page/blog.css')
     .sass('resources/sass/web/page/home/main.scss', 'public/css/web/page/home.css')
     .sass('resources/sass/web/page/new/main.scss', 'public/css/web/page/new.css')
+    .sass('resources/sass/web/page/login/main.scss', 'public/css/web/page/login.css')
     // CSS PANEL
     .sass('resources/sass/panel/dashboard.scss', 'public/css/panel')
 

@@ -4,7 +4,7 @@
     <input type="search" name="q" id="search" class="mb-1" placeholder="Buscar..." autocomplete="off" />
     <div class="d-flex w-100 list-categories scroll-horizontal">
         <span>
-            <input type="checkbox" class="d-none checkbox-category" name="categories[]" value="">
+            <input type="checkbox" id="all" class="d-none" name="categories[]" value="">
             <label for="all" class="category" id="all-categories" tabindex="0">Todos</label>
         </span>
 

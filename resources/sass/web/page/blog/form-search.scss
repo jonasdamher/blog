@@ -57,6 +57,7 @@
         background-color: rgba(0, 0, 0, 0.055);
         transition: 0.2s;
         cursor: pointer;
+        user-select: none;
     }
 
     input:checked ~ .category {
