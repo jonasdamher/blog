@@ -1,8 +1,40 @@
+@import "../web/main/fonts";
+@import "../web/main/variables";
+
 @import "dashboard/menu";
 @import "dashboard/misc";
+
+* {
+  font-family: "Montserrat";
+}
+
+body {
+  font-size: 0.9rem;
+  scrollbar-width: thin;
+  scrollbar-color: $color_scroll $white;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: $primary;
+}
 
 input.form-control,
 textarea,
 select {
   background-color: #fff;
 }
+
+.btn-search {
+  img {
+    width: 15px;
+    height: auto;
+  }
+}
+
+ 

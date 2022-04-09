@@ -3,6 +3,7 @@
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PublicationController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -19,10 +20,16 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes();
 
-Route::get('/',  [HomeController::class, 'index'])->name('home');
-Route::get('/blog',  [BlogController::class, 'index'])->name('blog');
 
 Route::get('/dashboard',  [DashboardController::class, 'index'])->name('dashboard');
 
-Route::get('/{slug}',  [BlogController::class, 'new'])->where('slug', '^[a-z-0-9-]+$')->name('new');
+Route::prefix('publication')->group(function () {
+    Route::get('/',  [PublicationController::class, 'index'])->name('publication');
+    Route::get('/new',  [PublicationController::class, 'new'])->name('newPublication');
 
+});
+
+Route::get('/',  [HomeController::class, 'index'])->name('home');
+Route::get('/blog',  [BlogController::class, 'index'])->name('blog');
+
+Route::get('/{slug}',  [BlogController::class, 'new'])->where('slug', '^[a-z-0-9-]+$')->name('new');

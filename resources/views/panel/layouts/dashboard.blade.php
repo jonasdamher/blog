@@ -1,7 +1,6 @@
  
 
 @push('scripts-tail')
-    <script src="{{ mix('js/panel/menu.js') }}"></script>
 @endpush
 
 @include('panel.partials.header')

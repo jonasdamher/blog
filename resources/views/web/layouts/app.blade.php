@@ -31,7 +31,7 @@
     @yield('content')
     @include('web.panels.footer')
     <a class="btn btn-up" title="Ir al principio" href="#" tabindex="-1" aria-label="Ir al principio"><img
-            src="{{ asset('image/web/arrow-up-solid.svg') }}" alt="Ir al principio" /></a>
+            src="{{ asset('image/icons/arrow-up-solid.svg') }}" alt="Ir al principio" /></a>
     {{-- Scripts --}}
     <script src="{{ asset(mix('js/web/main.js')) }}" defer></script>
     @yield('js-tails')

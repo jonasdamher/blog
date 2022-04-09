@@ -1,8 +1,8 @@
 @extends('panel.layouts.dashboard',['view'=>'table'])
 
-@section('title', 'Dashboard')
-@section('btn-create', 'Añadir artículo')
-@section('btn-create-url', 'articles/new')
+@section('title', 'Publicaciones')
+@section('btn-create', 'Añadir publicación')
+@section('btn-create-url', 'publication/new')
 
 
 @section('navbar-table-options')

@@ -1,9 +1,12 @@
-
-.overflow-y-auto{
+.overflow-y-auto {
     overflow-y: auto;
 }
 
 .toggle-menu {
+    img{
+        width: 19px;
+        height: auto;
+    }
     display: none;
     @media (max-width: 768px) {
         display: inline-block;
@@ -19,34 +22,33 @@
     background: #fff;
     z-index: 10;
     visibility: visible;
-    transition: .2s;
-    .logo {
-        display: none;
-    }
-
-    .logo-lg {
-        display: block;
-    }
+    transition: 0.2s;
 
     .nav-link {
+        display: flex;
         padding: 0.7rem 0;
+        img{
+            filter: invert(50%) sepia(6%) saturate(14%) hue-rotate(201deg) brightness(86%) contrast(88%);
+        }
     }
 
     @media (max-width: 768px) {
-        top: 72px;
+        top: 71px;
         visibility: hidden;
         transform: translateX(-229px);
-
     }
 }
 
 .navbar-light .navbar-nav {
-    a.nav-link.active{
-        // color:$blue;
+    a.nav-link.active {
+        color:$primary;
         font-weight: bold;
+        img{
+            filter: invert(15%) sepia(100%) saturate(5287%) hue-rotate(232deg) brightness(101%) contrast(104%);
+        }
     }
 }
- 
+
 .bg-menu {
     position: fixed;
     left: 0;
@@ -65,7 +67,7 @@
 }
 
 .brand {
-    height: 72px;
+    height: 71px;
 }
 
 .show {
@@ -77,27 +79,15 @@ span.icon {
     width: 32px;
     display: inline-flex;
     justify-content: center;
+    img {
+        width: 15px;
+        height: auto;
+     }
 }
 
 .menu-short {
-    .logo {
-        display: none;
-    }
-
-    .logo-lg {
-        display: block;
-    }
-
     @media (min-width: 769px) {
         width: 92px;
-
-        .logo {
-            display: block;
-        }
-
-        .logo-lg {
-            display: none;
-        }
 
         .nav-item {
             margin-bottom: 0.4rem;

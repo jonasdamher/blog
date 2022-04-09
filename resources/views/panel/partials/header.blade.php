@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/ico" href="{{ asset('favicon.ico') }}">
     <!-- css -->
-    <link rel="stylesheet" type="text/css" href="{{ mix('css/web/main.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ mix('css/panel/bootstrap.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ mix('css/panel/dashboard.css') }}">
     @stack('scripts-head')
 

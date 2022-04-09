@@ -14,9 +14,7 @@
         width: calc(100% - 92px);
         margin-left: 92px;
 
-        .logo-lg {
-            display: none;
-        }
+     
     }
 }
 
@@ -59,20 +57,16 @@
 }
 
 .logo {
-    width: 64px;
-    filter: drop-shadow(5px 3px 3px #00000013);
+    width: auto;
+    height: 48px;
 }
-
-.logo-lg {
-    width: 128px;
-}
-
+ 
 input[type="search"]::-webkit-search-cancel-button {
     -webkit-appearance: none;
     height: 1em;
     width: 1em;
     border-radius: 50em;
-    background: url("/image/web/times-solid.svg") no-repeat 50% 50%;
+    background: url("/image/icons/times-circle-solid.svg") no-repeat 50% 50%;
     background-size: contain;
     opacity: 0;
     pointer-events: none;
@@ -88,4 +82,8 @@ input[type="search"]:focus::-webkit-search-cancel-button {
     th {
         vertical-align: middle;
     }
+}
+
+.overflow-x-hidden{
+    overflow-x: hidden;
 }

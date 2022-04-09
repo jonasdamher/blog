@@ -18,7 +18,10 @@ mix
     .js('resources/js/web/theme.js', 'public/js/web')
     .js('resources/js/web/blog/*.js', 'public/js/web/blog')
     // JS PANEL
-    .js('resources/js/panel/menu.js', 'public/js/panel')
+    .copy('resources/js/panel/menu.js', 'public/js/panel')
+    // JS COMMON
+    .copy('resources/js/common/jquery.v3.6.0.min.js', 'public/js/common')
+     .copy('resources/js/common/bootstrap.bundle.min.js', 'public/js/common')
     // CSS WEB
     .sass('resources/sass/web/main.scss', 'public/css/web/')
     .sass('resources/sass/web/page/blog/main.scss', 'public/css/web/page/blog.css')
@@ -27,6 +30,7 @@ mix
     .sass('resources/sass/web/page/login/main.scss', 'public/css/web/page/login.css')
     // CSS PANEL
     .sass('resources/sass/panel/dashboard.scss', 'public/css/panel')
+    .css('resources/sass/panel/bootstrap.min.css', 'public/css/panel')
 
     .sourceMaps(true, 'source-map').version();
 
