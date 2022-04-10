@@ -15,4 +15,10 @@ class PublicationController extends Controller
     {
         return view('panel.pages.publication.form');
     }
+
+    public function store(Request $req)
+    {
+
+        return response()->json(['message' => 'todo ok'], 201);
+    }
 }

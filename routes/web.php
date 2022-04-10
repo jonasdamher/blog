@@ -27,6 +27,8 @@ Route::prefix('publication')->group(function () {
     Route::get('/',  [PublicationController::class, 'index'])->name('publication');
     Route::get('/new',  [PublicationController::class, 'new'])->name('newPublication');
 
+    // ENDPOINTS
+    Route::post('/store',  [PublicationController::class, 'store'])->name('storePublication');
 });
 
 Route::get('/',  [HomeController::class, 'index'])->name('home');

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es" prefix="og: https://ogp.me/ns#">
+<html lang="es" dir="ltr" prefix="og: https://ogp.me/ns#">
 
 <head>
     <title>{{ config('app.name') }}</title>
