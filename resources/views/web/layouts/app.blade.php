@@ -20,7 +20,6 @@
     <link href="{{ asset('manifest.json') }}" rel="manifest">
     <!-- Scripts -->
     <script src="{{ asset(mix('js/web/sw.js')) }}"></script>
-    <script src="{{ asset(mix('js/web/theme.js')) }}"></script>
     <!-- Styles -->
     <link href="{{ asset(mix('css/web/main.css')) }}" rel="stylesheet">
     @yield('css')

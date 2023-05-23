@@ -31,4 +31,13 @@
             }
         }
     }
+
+    .header-image{
+        border: 1px solid #fff;
+        border-top-right-radius: 7rem;
+        border-top-left-radius: 7rem;
+        border-bottom-right-radius: 7rem;
+        border-bottom-left-radius: 0.5rem;
+        box-shadow: 49px 36px 0px #0540ff;
+    }
 }

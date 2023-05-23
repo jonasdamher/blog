@@ -1,17 +1,17 @@
 {
-    "/js/web/main.js": "/js/web/main.js?id=571017e8a86c6da4cf2a",
+    "/js/web/main.js": "/js/web/main.js?id=641c06b248401ec10879",
     "/js/web/sw.js": "/js/web/sw.js?id=44f9c1760064065d68d1",
-    "/js/web/theme.js": "/js/web/theme.js?id=5f8e10e544efebf3ed55",
+    "/js/web/theme.js": "/js/web/theme.js?id=9f73e36163448599799c",
     "/js/web/blog/main.js": "/js/web/blog/main.js?id=c3004f78ba540d0fd3b0",
     "/css/web/page/login.css": "/css/web/page/login.css?id=68b329da9893e34099c7",
     "/css/web/page/new.css": "/css/web/page/new.css?id=618f4d9bef342ec52a16",
-    "/css/web/page/home.css": "/css/web/page/home.css?id=8c7cddf98c1a73997569",
+    "/css/web/page/home.css": "/css/web/page/home.css?id=1fbcf650b1bb4ab068c6",
     "/css/web/page/blog.css": "/css/web/page/blog.css?id=a3996994fdfbae0b2bf5",
-    "/css/web/main.css": "/css/web/main.css?id=aff4b728a3a445897ce5",
-    "/css/panel/bootstrap.min.css": "/css/panel/bootstrap.min.css?id=8e16ebfc9897d1529272",
+    "/css/web/main.css": "/css/web/main.css?id=72807adc0f49e5434aca",
+    "/css/panel/bootstrap.min.css": "/css/panel/bootstrap.min.css?id=2de0db56f04eb240dd51",
     "/css/panel/dashboard.css": "/css/panel/dashboard.css?id=61ec62a5d4bc67c9a61c",
     "/js/panel/menu.js": "/js/panel/menu.js?id=d5f808eddffb6b91831e",
-    "/js/common/bootstrap.bundle.min.js": "/js/common/bootstrap.bundle.min.js?id=0aa8d64e726c4a57adb5",
+    "/js/common/bootstrap.bundle.min.js": "/js/common/bootstrap.bundle.min.js?id=189f332ecdd3d42e7819",
     "/js/common/jquery.v3.6.0.min.js": "/js/common/jquery.v3.6.0.min.js?id=3e4bb227fb55271bfe9c",
-    "/js/common/Request.js": "/js/common/Request.js?id=0db18b091fcbe69173f6"
+    "/js/common/Request.js": "/js/common/Request.js?id=492d41b517ecc25bad8c"
 }

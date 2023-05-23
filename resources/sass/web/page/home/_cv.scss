@@ -5,7 +5,8 @@
     .cv-title {
         font-size: 2rem;
         margin-bottom: 1rem;
-        p{
+
+        p {
             margin-bottom: auto;
         }
     }
@@ -14,17 +15,30 @@
         font-family: "Montserrat-italic";
         color: #767676;
     }
+
     .cv-desc {
         margin-bottom: 2rem;
         font-size: 1.2rem;
-        p{
+
+        a {
+            margin-bottom: 0.4rem;
+            display: block;
+        }
+
+        p {
             margin-bottom: 0.4rem;
 
         }
+
         .cv-experience:not(.cv-desc .cv-experience:last-child) {
             margin-bottom: 1rem;
         }
     }
 
- 
+    .row-pd-0 {
+        div[class*=col-]:first-child, div[class*=col-]:last-child {
+            padding: 0px;
+        }
+    }
+
 }
