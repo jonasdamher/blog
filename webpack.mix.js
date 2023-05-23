@@ -15,7 +15,6 @@ mix
     // JS WEB
     .js('resources/js/web/main.js', 'public/js/web')
     .js('resources/js/web/sw.js', 'public/js/web')
-    .js('resources/js/web/theme.js', 'public/js/web')
     .js('resources/js/web/blog/*.js', 'public/js/web/blog')
     // JS PANEL
     .copyDirectory('resources/js/panel/', 'public/js/panel')

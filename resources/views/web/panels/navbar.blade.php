@@ -22,11 +22,6 @@
                 </li>
             </ul>
         </div>
-        <label class="switch change-theme-label " for="change-theme" title="Cambiar modo" role="switch"
-            aria-checked="false">
-            <input type="checkbox" id="change-theme">
-            <span class="slider slider-sm round slider-theme"></span>
-        </label>
         <span class="bg-menu"></span>
     </section>
 </nav>
